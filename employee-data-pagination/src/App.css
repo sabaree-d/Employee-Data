@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+table {
+  border: 2px solid green;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid green;
+  padding: 8px;
+}
+
+thead {
+  background-color: lightgreen;
+}
+
+button {
+  background-color: lightgreen;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:not(:disabled):hover {
+  background-color: green;
+  color: white;
+}
